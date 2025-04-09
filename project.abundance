@@ -1,13 +1,49 @@
 {
     "atomType": "Molecule",
-    "name": "Lazy Suzan",
+    "name": "Lazy-Suzan",
     "x": 0,
     "y": 0,
     "uniqueID": 1744166156468,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1744166165867,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.1446673706441394,
+            "y": 0.41739130434782606,
+            "uniqueID": 1744166439145,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.07761351636747624,
+            "y": 0.6326086956521739,
+            "uniqueID": 1744166489955,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": null,
+            "type": null,
+            "SVGwidth": 10
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
